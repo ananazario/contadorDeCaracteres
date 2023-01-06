@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#textarea {
+    margin: 1rem 0;
+    padding: .5rem;
+}
+
+.input-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#input {
+    padding: .3rem .6rem;
+    margin-bottom: 1rem;
+    background: rgb(169, 163, 240);
+    border: rgb(169, 163, 240);
+}
+
+#verificador.ativo, #aviso.aviso-ativo {
+    color: rgb(235, 0, 0);
+}
+
+#aviso, .aviso {
+    opacity: 0;
+    color: black;
+}
+
+#aviso.aviso-ativo {
+    opacity: 1;
+}
